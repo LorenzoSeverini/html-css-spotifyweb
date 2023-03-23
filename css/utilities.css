@@ -1,0 +1,49 @@
+/******** GENERIC **********/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h100 {
+    height: 100%;
+}
+
+/******** FLEX **********/
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+/******** PADDING ******/
+.padding10 {
+    padding: .625rem;
+}
+
+/* GAP */
+.gap10 { gap: .625rem; }
