@@ -24,6 +24,18 @@ body {
     flex-wrap: wrap;
 }
 
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
 .space-between {
     justify-content: space-between;
 }
@@ -46,4 +58,16 @@ body {
 }
 
 /* GAP */
-.gap10 { gap: .625rem; }
+.gap2 {
+    gap: 2rem;
+}
+
+.gap10 { 
+    gap: .625rem; 
+}
+
+/* line height */
+
+.line-height5 {
+    line-height: 5;
+}
